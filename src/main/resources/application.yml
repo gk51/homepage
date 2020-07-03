@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    check-template-location: true
+    cache: false
+  resources:
+    static-locations: classpath:/static/
+    add-mappings: true
+  devtools:
+    livereload:
+      enabled: true
+logging:
+  level:
+    root: info
